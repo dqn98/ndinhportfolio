@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 import { AppWrap } from '../../wrapper'
 import { images } from '../../constants'
+import { BsDownload } from 'react-icons/bs'
 import './Header.scss'
 
 const scaleVariants = {
@@ -28,12 +29,15 @@ const Header = () => {
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
               <p className='p-text'>Hello, I am</p>
-              <h1 className='head-text'>cc</h1>
+              <h1 className='head-text'>Nam Dinh</h1>
             </div>
           </div>
           <div className='tag-cmp app__flex'>
             <p className='p-text'>Web Developer</p>
             {/* <p className='p-text'>SQL Developer</p> */}
+          </div>
+          <div className='tag-cmp app__flex'>
+            <button className='p-text btn-download'>Download my CV <BsDownload /></button>
           </div>
         </div>
       </motion.div>

@@ -76,6 +76,16 @@
             text-transform: uppercase;
             text-align: right;
         }
+
+        .btn-download {
+            border: none;
+            margin: 10px 30px;
+            background-color: transparent;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 
     span {
@@ -188,6 +198,6 @@
 
     @media screen and (max-width: 1200px) {
         margin: 2rem 0;
-        
+
     }
 }
